@@ -12,8 +12,3 @@ jobs:
     steps:
       - name: Hello World 찍기
         run: ehco "Hello World"
-
-      - name: 여러 명령어 문장 작성하기
-        run: |
-          ehco "Good"
-          ehco  "Morning"
