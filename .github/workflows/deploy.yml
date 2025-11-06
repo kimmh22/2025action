@@ -16,3 +16,7 @@ jobs:
         run: |
           echo "good"
           echo "bye"
+      - name: 깃허브변수
+        run: |
+          echo $GITHUB_SHA
+          echo $GITHUB_REPOSITORY
