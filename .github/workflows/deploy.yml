@@ -20,3 +20,7 @@ jobs:
         run: |
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
+
+      - name: 깃액션secret
+        run: |
+          echo: ${{secrets.MY_NAME}}
