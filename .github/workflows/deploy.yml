@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - name: Hello World 찍기
-        run: ehco "Hello World"
+        run: echo "Hello World"
